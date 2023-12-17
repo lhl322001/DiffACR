@@ -19,7 +19,15 @@
 We provide demo codes for end-to-end inference here.
 Our inference codes will iterate all images in a given folder, and generate the results.
 
+
+
+
+
 ### Quick start 
+
+
+
+
 
 
 ### Training
@@ -34,13 +42,15 @@ After runnng, it will generate the model results in the folder  ./output and the
 
 ### Evaluation
 
+![](figure/concept.png)
+
+
+
 
 
 
 
 ## Acknowledgements
-
-
 
 Our code refers the following repositores:
 
