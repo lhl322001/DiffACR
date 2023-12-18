@@ -1,8 +1,18 @@
-# Global-Awareness-in-Real-world-Inscription-Character-Restoration
+# DiffACR: Diffusion Ancient Restoration
+
+DiffACR Model is based on Cold-Diffusion-Models of the paper [Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise](https://arxiv.org/abs/2208.09392)
 
 ![](./figure/pipline.png)
 
+Overview of proposed ARMCD and DiffACR. 
 
+(a) Chinese Ancient Rubbing and Manuscript Character
+Dataset(ARMCD) with professional mask synthesis. 
+
+(b) Diffusion model for automated Chinese Ancient Character Restoration(DiffACR) with the forward erosionfication and the reverse restoration processes. 
+
+(c) Erosionfication, where an uneroded
+image is iteratively degraded into an eroded image, eventually into a completely black image.
 
 
 ## Setup
@@ -55,4 +65,13 @@ After runnng, it will generate the model results in the folder  ./output and the
 Our code refers the following repositores:
 
 ## Citation
+
+```
+@article{bansal2022cold,
+  title={Cold diffusion: Inverting arbitrary image transforms without noise},
+  author={Bansal, Arpit and Borgnia, Eitan and Chu, Hong-Min and Li, Jie S and Kazemi, Hamid and Huang, Furong and Goldblum, Micah and Geiping, Jonas and Goldstein, Tom},
+  journal={arXiv preprint arXiv:2208.09392},
+  year={2022}
+}
+```
 
