@@ -1,6 +1,6 @@
 # DiffACR: Diffusion Ancient Restoration
 
-DiffACR Model is based on Cold-Diffusion-Models of the paper [Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise](https://arxiv.org/abs/2208.09392)
+DiffACR Model is based on Cold-Diffusion-Models of the paper [link]()
 
 ![](./figure/pipline.png)
 
@@ -16,8 +16,6 @@ image is iteratively degraded into an eroded image, eventually into a completely
 
 
 ## Setup
-
-
 
 1. Download Datasets in link
 2. We stored data from all animal images and labels in a single directory. The directory structure looks like:
@@ -35,7 +33,8 @@ Our inference codes will iterate all images in a given folder, and generate the 
 
 ### Quick start 
 
-
+We provide demo codes for end-to-end inference here.
+Our inference codes will iterate all images in a given folder, and generate the results.
 
 
 
@@ -54,9 +53,8 @@ After runnng, it will generate the model results in the folder  ./output and the
 
 ![](figure/concept.png)
 
-
-
-
+Examples of ARMCD. Every four lines from top to bottom are real-world uneroded ancient characters(Real), preprocessed
+uneroded characters(Pred), professional masks(Mask), and synthesized eroded characters(Synd).
 
 
 
@@ -67,11 +65,6 @@ Our code refers the following repositores:
 ## Citation
 
 ```
-@article{bansal2022cold,
-  title={Cold diffusion: Inverting arbitrary image transforms without noise},
-  author={Bansal, Arpit and Borgnia, Eitan and Chu, Hong-Min and Li, Jie S and Kazemi, Hamid and Huang, Furong and Goldblum, Micah and Geiping, Jonas and Goldstein, Tom},
-  journal={arXiv preprint arXiv:2208.09392},
-  year={2022}
-}
+
 ```
 
