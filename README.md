@@ -1,4 +1,4 @@
-# DiffACR: Diffusion Ancient Restoration
+# Towards Automated Chinese Ancient Character Restoration: a Diffusion-based Method with a New Dataset
 
 DiffACR Model is based on the paper [link]()
 
