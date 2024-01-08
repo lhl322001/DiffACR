@@ -6,7 +6,7 @@
 
 ## Introduction
 
-We are proud to introduce the Chinese Ancient Rubbing and Manuscript Character Dataset ([ARMCD]([lhl322001/ARMCD (github.com)])), which is specifically constructed for the automated Chinese ancient character restoration (ACACR) task.
+We are proud to introduce the Chinese Ancient Rubbing and Manuscript Character Dataset (ARMCD), which is specifically constructed for the automated Chinese ancient character restoration (ACACR) task.
 
 We also propose a Diffusion Model for Automated Chinese Ancient Character Restoration (DiffACR) for the ACACR task.
 
