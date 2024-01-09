@@ -1,69 +1,27 @@
-# Towards Automated Chinese Ancient Character Restoration: a Diffusion-based Method with a New Dataset
+# Towards Automated Chinese Ancient Character Restoration: A Diffusion-based Method with a New Dataset
 
-## News
 
-* Our paper has been Just accepted by AAAI24, here is the [link]() 
 
-## Introduction
+Here is the Python implementation of the paper "Towards Automated Chinese Ancient Character Restoration: A Diffusion-Based Method with a New Dataset".
 
-We are proud to introduce the Chinese Ancient Rubbing and Manuscript Character Dataset (ARMCD), which is specifically constructed for the automated Chinese ancient character restoration (ACACR) task.
-
-We also propose a Diffusion Model for Automated Chinese Ancient Character Restoration (DiffACR) for the ACACR task.
+The paper is accepted by AAAI-22 and is available at: link
 
 ## Overview of ARMCD and DiffACR
 
 ![](./figure/pipline.png)
 
+## Install
 
-## Setup
-
-1. Download Datasets in here.
-2. Stored all images and labels in the directory *dataset*.
-3. configure environment. ……
-4. if you see ***, then the setup is done.
+```
+pip install -r requirements.txt
+```
 
 
 ## Usage
 
-### Quick start 
-
-We provide demo codes for end-to-end inference here.
-
-```
-the cmd to run the inference.
-```
-
-Our inference codes will iterate all images in a given folder, and generate the results in **result folder**  .
-
-### Mask synthesis
-
-We also provide an interface for synthesis the *professional mask* with your own dataset.
-
-First, you need to place your own eroded images in YOUR_FILE_PATH.
-
-Then, run the following command to obtain the generated *professional mask* in the FOLDER.
-
-```
-the cmd to run the inference.
-```
-
 ### Training
 
-We also provide an interface for training DiffACR using your own dataset.
-
-Just need to place *uneroded character images* and *professional mask* under a single folder, following the specified file format.
-
-```
-YOUR_DATASET/
-│
-├── UNERODED/
-│   ├── file1.jpg (224 * 224?)
-│   ├── file2.txt
-│  
-……
-```
-
-Then you just need to run the following code.
+You just need to run the following code.
 
 ```bash
 python train.py --epochs 2000 --time_steps 50 --input_dir None --output_dir ./output --localmask_dir ./mask ……
@@ -81,7 +39,26 @@ the cmd to run evaluate
 
 The following is an example of our DiffACR repaired images.
 
-![](figure/concept.png)
+## Experimental Results
+
+This is the experimental result
+
+| Method                         | MAE ↓      | PSNR ↑    | SSIM ↑     | FID ↓     | LPIPS ↓    |
+| ------------------------------ | ---------- | --------- | ---------- | --------- | ---------- |
+| DNCNN [zhang2017beyond]        | 0.0873     | 21.04     | 0.9065     | 75.12     | 0.3925     |
+| Cycle-Dehaze [engin2018cycle]  | 0.1025     | 16.97     | 0.8862     | 92.19     | 0.4215     |
+| VDN [guo2019toward]            | 0.0619     | 21.46     | 0.9457     | 64.65     | 0.3078     |
+| CIDG [zhang2020novel]          | 0.0567     | 21.88     | 0.9271     | 49.96     | 0.2623     |
+| SCCGAN [liu2021sccgan]         | 0.0324     | 17.72     | 0.8976     | 36.59     | 0.1914     |
+| SGGAN [li2021generative]       | 0.0308     | 19.92     | 0.9673     | 33.24     | 0.0842     |
+| IPT [chen2021pre]              | **0.0169** | 23.73     | 0.9727     | 22.68     | 0.0777     |
+| SwinIR [liang2021swinir]       | 0.0195     | **24.08** | **0.9983** | 18.53     | **0.0483** |
+| CharFormer [shi2022charformer] | 0.0226     | **24.38** | 0.9886     | **15.44** | 0.0557     |
+| **DiffACR(Ours)**              | **0.0187** | 22.25     | **0.9988** | **12.87** | **0.0494** |
+
+
+
+
 
 ## Citation
 
