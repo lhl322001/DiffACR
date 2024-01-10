@@ -4,7 +4,7 @@
 
 Here is the Python implementation of the paper "Towards Automated Chinese Ancient Character Restoration: A Diffusion-Based Method with a New Dataset".
 
-The paper is accepted by AAAI-22 and is available at: link
+The paper is accepted by AAAI24 and is available at: link
 
 ## Overview of ARMCD and DiffACR
 
