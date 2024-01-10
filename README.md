@@ -31,13 +31,13 @@ After running, it will generate the model results in the folder  ./output and th
 
 ### Evaluation
 
-To evaluate our results, you only need to run the following command. Repaired generated results will be placed in the folder below, and the evaluation metrics will be displayed in the command line (or in a file).
+To evaluate our results, you only need to run the following command. 
 
 ```
 the cmd to run evaluate 
 ```
 
-The following is an example of our DiffACR repaired images.
+Repaired generated results will be placed in the folder below, and the evaluation metrics will be displayed in the command line (or in a file).
 
 ## Experimental Results
 
@@ -60,7 +60,7 @@ This is the experimental result
 
 
 
-## Citation
+## Reference
 
 If our code has been helpful to you, please don't forget to cite us.
 
