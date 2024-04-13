@@ -60,11 +60,14 @@ This is the experimental result
 
 
 
-## Reference
+## Cite
 
 If our code has been helpful to you, please don't forget to cite us.
 
 ```
 
+Li H, Du C, Jiang Z, et al. Towards Automated Chinese Ancient Character Restoration: A Diffusion-Based Method with a New Dataset[C]//Proceedings of the AAAI Conference on Artificial Intelligence. 2024, 38(4): 3073-3081.
+
 ```
 
+git 
