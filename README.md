@@ -6,7 +6,7 @@ Here is the Python implementation of the paper "Towards Automated Chinese Ancien
 
 The paper is accepted by AAAI24 and is available at: link
 
-\textbf{The code is currently being sanitized for privacy and effectiveness and is anticipated to be released as open source shortly.}
+_The code is currently being sanitized for privacy and effectiveness and is anticipated to be released as open source shortly._
 
 ## Overview of ARMCD and DiffACR
 
