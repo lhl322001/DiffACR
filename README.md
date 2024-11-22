@@ -1,6 +1,6 @@
 # Towards Automated Chinese Ancient Character Restoration: A Diffusion-based Method with a New Dataset
 
-
+# AAAI2024
 
 Here is the Python implementation of the paper "Towards Automated Chinese Ancient Character Restoration: A Diffusion-Based Method with a New Dataset".
 
