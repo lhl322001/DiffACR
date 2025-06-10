@@ -31,20 +31,10 @@ Please use the link https://drive.google.com/file/d/1XlZd08Axb-FAViOIKANPzL4wxcQ
 You just need to run the following code.
 
 ```bash
-python train.py --epochs 2000 --time_steps 50 --input_dir None --output_dir ./output --localmask_dir ./mask ……
+python train.py --epochs 100 --time_steps 100 --input_dir None --output_dir ./output --localmask_dir ./mask ……
 ```
 
 After running, it will generate the model results in the folder  ./output and the local mask results in the folder ./mask
-
-### Evaluation
-
-To evaluate our results, you only need to run the following command. 
-
-```
-the cmd to run evaluate 
-```
-
-Repaired generated results will be placed in the folder below, and the evaluation metrics will be displayed in the command line (or in a file).
 
 
 
