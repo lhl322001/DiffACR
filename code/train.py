@@ -31,10 +31,10 @@ class EMA():
 def get_args_parser():
     parser = argparse.ArgumentParser('Alternative')
     
-    parser.add_argument('--epochs', default=2000, type=int)
-    parser.add_argument('--time_steps', default=50, type=int)
-    parser.add_argument('--batch_size', default=8, type=int)
-    parser.add_argument('--image_size', default=224, type=int)
+    parser.add_argument('--epochs', default=0, type=int)
+    parser.add_argument('--time_steps', default=0, type=int)
+    parser.add_argument('--batch_size', default=0, type=int)
+    parser.add_argument('--image_size', default=0, type=int)
     parser.add_argument('--device', default='cuda:0')
     parser.add_argument('--input_dir', default=None)
     parser.add_argument('--output_dir', default='./output_50')

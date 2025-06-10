@@ -114,8 +114,6 @@ class Diff(nn.Module):
             y_t = self.p_sample(y_t, t, y_cond=y_cond)
             if mask is not None:
                 y_t = y_0*(1.-mask) + mask*y_t
-            if i % sample_inter == 0:
-                ret_arr = torch.cat([ret_arr, y_t], dim=0)
         return y_t, ret_arr
 
     def forward(self, y_0, y_cond=None, mask=None, noise=None):
@@ -124,7 +122,6 @@ class Diff(nn.Module):
         t = torch.randint(1, self.num_timesteps, (b,), device=y_0.device).long()
         gamma_t1 = extract(self.gammas, t-1, x_shape=(1, 1))
         sqrt_gamma_t2 = extract(self.gammas, t, x_shape=(1, 1))
-        sample_gammas = (sqrt_gamma_t2-gamma_t1) * torch.rand((b, 1), device=y_0.device) + gamma_t1
         sample_gammas = sample_gammas.view(b, -1)
 
         noise = default(noise, lambda: torch.randn_like(y_0))
