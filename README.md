@@ -22,13 +22,17 @@ The Chinese Ancient Rubbing and Manuscript Character Dataset (ARMCD) is a new au
 
 ![image-20231217175911655](figure/concept.png)
 
-Please use the link https://drive.google.com/file/d/1XlZd08Axb-FAViOIKANPzL4wxcQHZ_jY/view?usp=drive_link to download our dataset.
+Please use this [google drive](https://drive.google.com/file/d/1XlZd08Axb-FAViOIKANPzL4wxcQHZ_jY/view?usp=drive_link) to download our dataset.
+
+
+
+Please click [here](https://www.wjx.cn/vm/Y3srtjR.aspx# ) to complete the questionnaire and share your dataset usage purpose. Your input helps us improve research support!
 
 ## Usage
 
 ### Training
 
-You just need to run the following code.
+Run the following code.
 
 ```bash
 python train.py --epochs 100 --time_steps 100 --input_dir None --output_dir ./output --localmask_dir ./mask ……
