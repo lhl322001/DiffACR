@@ -22,7 +22,10 @@ Please click [here](https://www.wjx.cn/vm/Y3srtjR.aspx# ) to complete the questi
 
 After downloading, please ensure your dataset directory has a structure similar to this:
 ```
-└─dataset
+code 
+    |─diffusion.py
+    |─train.py
+dataset 
     ├─testset
     │  ├─eroded
     │  ├─real
