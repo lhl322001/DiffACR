@@ -11,20 +11,13 @@ __The code is currently being sanitized for privacy and effectiveness and is ant
 
 ![](./figure/pipline.png)
 
-## Install
-
-```
-pip install -r requirements.txt
-```
 ## Dataset 
 
 The Chinese Ancient Rubbing and Manuscript Character Dataset (ARMCD) is a new automated Chinese ancient character restoration dataset, which consists of 15,553 real-world ancient single-character images with 42 rubbings and manuscripts, covering the works of over 200 calligraphy artists spanning from 200 to 1,800 AD. The dataset is specifically constructed for the automated Chinese ancient character restoration(ACACR) task. As far as we know, it stands as the largest publicly available ACACR dataset, surpassing existing datasets in both the diversity and quantity of ancient Chinese realworld artifacts. 
 
 ![image-20231217175911655](figure/concept.png)
 
-Please use this [google drive](https://drive.google.com/file/d/1XlZd08Axb-FAViOIKANPzL4wxcQHZ_jY/view?usp=drive_link) to download our dataset.
-
-
+Please send an email to 3157797969@qq.com with the subject containing "DiffACR". The email content should include your organization/school and the purpose of the dataset. We will reply with the download link for the dataset.
 
 Please click [here](https://www.wjx.cn/vm/Y3srtjR.aspx# ) to complete the questionnaire and share your dataset usage purpose. Your input helps us improve research support!
 
