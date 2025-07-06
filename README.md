@@ -20,7 +20,39 @@ Please send an email to 3157797969@qq.com with the subject containing "DiffACR".
 
 Please click [here](https://www.wjx.cn/vm/Y3srtjR.aspx# ) to complete the questionnaire and share your dataset usage purpose. Your input helps us improve research support!
 
+After downloading, please ensure your dataset directory has a structure similar to this:
+```
+└─dataset
+    ├─testset
+    │  ├─eroded
+    │  ├─real
+    │  └─target
+    ├─trainset
+    │  ├─eroded
+    │  ├─mask
+    │  ├─real
+    │  └─source
+    └─validationSet
+        ├─task1
+        │  ├─eroded
+        │  ├─real
+        │  └─target
+        ├─task2
+        │  ├─eroded
+        │  ├─real
+        │  └─target
+        ├─task3
+        │  ├─eroded
+        │  ├─real
+        │  └─target
+        └─task4
+            ├─eroded
+            └─real
+```
 ## Usage
+
+
+
 
 ### Training
 
